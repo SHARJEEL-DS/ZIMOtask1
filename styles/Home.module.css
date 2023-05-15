@@ -127,3 +127,20 @@
     filter: invert(1);
   }
 }
+
+.image-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.image-slider img {
+  display: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-slider img.active {
+  display: block;
+}

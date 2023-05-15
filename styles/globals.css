@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,20 @@ a {
     color: white;
     background: black;
   }
+}
+.image-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.image-slider img {
+  display: none;
+  max-width: 50%;
+  height: auto;
+}
+
+.image-slider img.active {
+  display: block;
 }
