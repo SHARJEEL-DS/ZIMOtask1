@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 // import PersonIcon from '@material-ui/icons/Person';
-import { GrDownload } from "react-icons/Gr";
+// import { GrDownload } from "react-icons/Gr";
 
-import { AiOutlineMenu } from "react-icons/Ai";
+// import { AiOutlineMenu } from "react-icons/Ai";
 // import { CLIENT_PUBLIC_FILES_PATH } from 'next/dist/shared/lib/constants'
 
 const Narbar = () => {
@@ -12,7 +12,7 @@ const Narbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-            ZIMO <GrDownload />
+            ZIMO 
           </span>
         </a>
         <div className="flex md:order-2">
