@@ -1,5 +1,6 @@
 import React from 'react'
 import Hea from '../components/Hea'
+import Image from 'next/image';
 import { Slider } from '@mui/material'
 // import Slider from 'react-slick';
 // import Carousel from 'carousel'
@@ -11,16 +12,21 @@ const work = () => {
     <div className=' grid grid-cols-3 gap-4'>
     
         <div className='row-span-2 relative group'>
-           
-            <img src='/a.jpg' alt=''/>
+        <Image src="/a.jpg"  layout="responsive" alt=""  width={100} height={100}/>
+            {/* // <img src='/a.jpg' alt=''/> */}
+          
 
         </div>
         <div className='relative group'>
-            <img src='/b.jpg' alt=''/>
+          
+        <Image src="/b.jpg"  layout="responsive" alt=""  width={100} height={100}/>
+            {/* <img src='/b.jpg' alt=''/> */}
 
         </div>
         <div className='relative group'>
-            <img src='/a.jpg' alt=''/>
+          
+        <Image src="/a.jpg"  layout="responsive" alt=""  width={100} height={100}/>
+            {/* <img src='/a.jpg' alt=''/> */}
 
         </div>
         

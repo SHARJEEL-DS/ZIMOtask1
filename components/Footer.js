@@ -8,7 +8,7 @@ function Hero() {
       
         <div className="w-6/12 flex items-center  text-white "></div>
         <div className="w-6/12 flex ">
-          <p className="ml-auto text-white text-[42px]" >PERSONALISED FOR YOU </p>
+          <p className="ml-auto text-white text-[42px] " >PERSONALISED FOR YOU </p>
           
         </div>
     </div>

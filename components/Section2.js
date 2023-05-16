@@ -1,5 +1,6 @@
 import React from 'react'
-
+// import Image from 'next/image';
+import Image from 'next/image';
 function Section2() {
   return (
     <div className='bg-white p-12'>
@@ -37,7 +38,7 @@ function Section2() {
                     <p className='text-[80px]'> ZIMO <span className='text-[14px] leading-tight mt-8 mr-10'> one source</span> </p>
             </div> */}
             <div className='w-6/12 ml-60  '>
-                <img src='/e.jpg'/>
+            <Image src="/e.jpg"  layout="responsive" alt=""  width={200} height={200} className="w-40 h-40"/>
             </div>
         </div>
     </div>
