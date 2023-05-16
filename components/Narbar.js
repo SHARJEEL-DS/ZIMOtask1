@@ -1,10 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import PersonIcon from '@material-ui/icons/Person';
-// import { GrDownload } from "react-icons/Gr";
-
-// import { AiOutlineMenu } from "react-icons/Ai";
-// import { CLIENT_PUBLIC_FILES_PATH } from 'next/dist/shared/lib/constants'
 
 const Narbar = () => {
   return (
